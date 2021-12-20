@@ -2,14 +2,39 @@ body {
     background-color: aqua;
 }
 #score{
-    font-size: 35px;
-    margin-left: 20px;
-}
+    font-size: 20px;
+    }
 #time{
-    font-size: 35px;
-    margin-right: 20px;
-    float: right;
+    font-size: 20px;
+        
 }
 #sketchtobedrawn{
     color: blue;
 }
+#show_sketch{
+    float: right;
+}
+h1{
+    background-color: yellow;
+    font-size: 25px;
+    margin-left: 100px;
+}
+canvas{
+    border: 5px solid chartreuse;
+    border-radius: 20px;
+    animation-name:example;  
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+ }
+ @keyframes example{
+     from{box-shadow:1px 1px 38px rebeccapurple}
+     to{box-shadow:1px 1px 38px aquamarine}
+ }
+ p{
+     padding-top: 10px;
+     font-size: 25px;
+ }
+ div{
+     height: 350;
+ }
